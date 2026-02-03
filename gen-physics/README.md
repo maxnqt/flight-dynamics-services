@@ -92,6 +92,7 @@ Net force is the combined effect of all the forces acting on an object. To find 
 
 - If the net force on an object is _not_ zero, the object's motion _will_ change (i.e. the object will accelerate)
 - A net force causes acceleration (!)
+- $accelaration = \frac{net force}{mass}$
 
 ---
 
@@ -108,11 +109,55 @@ Net force is the combined effect of all the forces acting on an object. To find 
 - If the same strength net force is applied to different mass objects, those with greater mass will experience smaller accelerations
 - A stronger net force will cause a greater acceleration for an object with constant mass
 - A greater mass object will undergo a smaller acceleration for the same strength net force applied
-- ... 
+
+---
+
+- Newton's first law tells us that when the forces on an object are unbalanced its velocity changes
+- When the forces are balanced its velocity does not change
+- An unbalanced force can cause an object to speed up, slow down, and/or change direction
+- The result depends on the direction the unbalanced force acts compared with the direction the object is moving
+- An object's acceleration—how quickly its velocity changes—depends on the strength of the net force exerted on it
+- A stronger net force causes a greater acceleration if the object's mass stays the same
+- An object's acceleration also depends on its mass
+- The same strength net force applied to a larger mass will produce a smaller acceleration
+- To accelerate different-mass objects at the same rate, the larger mass must experience a larger net force
+- Newton's second law tells us how an object's acceleration depends on its mass and the strength of the net force exerted on it
+- It can be expressed as an equation: $accelaration = \frac{net force}{mass}$
 
 ## Non-contact interactions
 
 ### Gravitational force
+
+- Is a fundamental force
+- Gravity: a force of attraction between any two masses
+- Fundamental force of attraction between any two masses
+- Non-contact force, mediated via gravitational fields
+- Strength depends on masses
+- Gets weaker with distance
+
+---
+
+- As with all forces, gravitational forces only exist when there's an interaction between two objects
+- Two masses interact without contact through a gravitational field
+- Gravitational forces are always attractive — two interacting masses always exert gravitational forces on each other that pull towards each other
+- This is true no matter how the masses are arranged, how they may be moving, or how they may be interacting with other objects
+- Increasing mass causes the gravitational forces to get stronger
+- It doesn't matter whether we increase mass 1 or mass 2 — we'd get the same result either way
+- If we increased both masses, the gravitational force strength would increase even more
+- Gravitational force is a very weak force
+- So, gravitational forces are very small unless one or both of the masses are very large
+- Increasing the distance between masses causes the gravitational forces to get weaker
+
+---
+
+- Two masses interact without contact through a gravitational field
+- The gravitational forces two masses exert on each other are always attractive, meaning the forces pull the objects toward each other
+- The more massive one or both of the masses are, the stronger the gravitational forces are
+- The farther apart the centers of the masses are, the weaker the gravitational forces are
+- Astronauts and other falling objects experience weightlessness
+- This is NOT because there's no gravitational force acting on them
+- Instead, it's because there's no surface pushing against them to create the sensation of weight
+
 ### Electric and magnetic forces
 
 ## Energy
