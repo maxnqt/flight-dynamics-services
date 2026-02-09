@@ -160,9 +160,91 @@ Net force is the combined effect of all the forces acting on an object. To find 
 
 ### Electric and magnetic forces
 
+- Electromagnetic forces: tension, friction, normal force
+- Electric force: force between charge particles (postive, negative charge)
+- Every charge/charge particles produce electric fields
+- This electric field puts a force on other charges
+- Electric force:
+  - Charge particles exert electric forces on each other
+  - Like charges repel
+  - Unlike charges attract
+  - More charge means stronger electric force
+  - Electric force decreases with distance
+- Magnetic force:
+  - Part of the fundamental electromagnetic interaction
+  - Non-contact force
+  - Unlike poles attract
+  - Like poles repel
+  - Stronger magnets exert more force
+  - Magnetic force gets weaker with distance
+- More currents in electromagnets exert more force
+
+---
+
+- Fundamentally, electric and magnetic forces are both part of the single electromagnetic force
+- The electromagnetic force acts without contact through the electromagnetic field
+- Electric charge can be either positive (+) or negative (-)
+- Electric charge is the property of matter that makes it interact electromagnetically
+- Electric charges always produce electric fields
+- Electric charges in an electric field always experience a force
+- Electric charges produce magnetic fields when the charges are moving
+- Electric charges in a magnetic field experience a force when the charges are moving
+- Electric charges and electromagnetic fields affect each other
+
+---
+
+- Electric charges interact without contact through electric fields
+- If another charged particle enters the electric field, it will experience an electric force
+- The forces two charges exert on each other can be either repulsive or attractive
+- Like (same) charges repel each other, and unlike (opposite) charges attract each other
+
+---
+
+- Electromagnetic induction: a changing magnetic field produces an electric field
+- This electric field leads to a force on the electrons in the coil, which makes the electrons move and produces electric current
+- Electromagnetic induction allows us to produce electric current, which we can use to power our electric devices
+- But for this to work, we need the magnetic field through a coil to change continuously
+
+---
+
+- It’s also true that an electric current-electrons in motion—produces a magnetic field
+- This is how electromagnets work
+
+---
+
+- Matter is made of particles
+- Some of those particles have a property called electric charge
+- Electric charge can be either positive (+) or negative (-)
+- Electric charges and electromagnetic fields affect each other
+- Electric charges interact without contact through electric fields
+- Like charges repel each other, and opposite charges attract each other
+- Charges, such as electrons, flowing over time is called electric current
+- Magnets interact without contact through magnetic fields
+- Every magnet has $N$ and $S$ pole
+- Like poles repel each other and opposite poles attract each other
+- During electromagnetic induction, a changing magnetic field produces an electric field
+- This electric field leads to a force on electrons in a coil, which makes the electrons move and produces electric current
+- This is how electric generators work
+- Electric currents produce magnetic fields
+- This is how electromagnets work
+- Electric currents also experience a force when passing through a magnetic field
+- This is how electric motors work
+
 ## Energy
 
+- Energy: quanitity measured in joules ($J$)
+
 ### Kinetic energy
+
+- Kinetic energy is the energy an object has due to its motion
+- How much kinetic energy an object has depends on two factors: the mass of the object, and the speed of the object
+  - Kinetic energy increases linearly with the mass
+  - Kinetic energy increases with the square of speed
+
+---
+
+- 
+
 ### Potential energy
 ### Conservation of energy
 
