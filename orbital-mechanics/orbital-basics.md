@@ -63,9 +63,104 @@ $$\vec{A} \cdot \vec{B} = AB cos \theta \rightarrow \theta =  cos^{-1}\left(\fra
 
 ## Kepler's laws
 
-- 
+- Periapsis: Closest point
+- Apoapsis: Farthest point
+- Periapsis and apoapsis are the two extreme points in an elliptical orbit, defining the closest and furthest distances between an orbiter and its central body
+- Eccentric orbit: Non-circular orbit
+- Keppler believed that the planets moved around the Sun in elliptical orbits with the Sun not at the center, but at one of the ellipse’s focal points
+- He developed _three Laws of Orbital Motion_
+
+**Kepler's first law**
+
+- The orbits of the planets are ellipses with the Sun at one focus
+
+**Kepler's second law**
+
+- When the planet is closest to the Sun (at perihelion), it must be travelling faster than when it is farther from the Sun
+- Planets sweep out equal areas in equal times (_the line joining a planet to the sun sweeps out equal areas in equal times_)
+
+**Kepler's third law**
+
+- _Orbital period:_ The time it takes for a planet to complete one orbit
+- The square of an orbit's period is proportional to the cube of the mean (or average) distance between the Sun and the planet
+
+$$Period = 2\pi\sqrt{\frac{a^{3}}{\mu}}seconds$$
+
+- Where $a$ is the semi-major axis, which describes the size of the orbit and $\mu = GM$ is called the gravitational constant
+- $G$ is the universal gravitational constant, and $M$ is the mass of the central body
+- The larger the orbit,  the longer it takes for the object to traverse it (!)
+- Keplers third law allows us to predict the orbit of any object in space traveling around a central body
 
 ## Newton's laws
+
+**Newton's first law of motion**
+
+- _A body continues in its state of rest, or of uniform motion in a straight line, unless compelled to change that state by forces impressed upon it_
+- Any object which is at rest will stay at rest unless some force makes it move
+- Similarly, any object in motion will stay in motion forever, with a constant speed in a straight-line direction, until some force makes it change its speed or direction of motion
+- How this law applies to satellites in orbit:
+  - A satellite is traveling in a circle or ellipse about some central body
+  - Since it is not traveling in a straight line, there must be some force acting on it
+  - That force is gravity, and it must be pulling the satellite in the direction of the central body
+  - Second, inertia keeps an object from moving without the application of an outside force
+  - However, once it is moving, an object has momentum, which is the amount of resistance an object in motion has to changes in its speed or direction of motion
+- **There must be a force on satellites - gravity!**
+- **Momentum is conserved - orbits are constant (in orientation and size)**
+- _Momentum:_ The amount of resistance an object in motion has to changes in its speed or direction of motion
+- There are two types: Linear momentum and angular momentum
+- Linear momentum is defined as mass times velocity and often represented by the variable $\vec{p}$
+
+$$\vec{p} = m\vec{V}$$
+
+- $\vec{p}$ is the linear momentum vector $\left(\frac{kg \cdot m}{s}\right)$
+- $m$ is mass $\left(kg\right)$
+- $\vec{V}$ is the velocity vector $\left(\frac{m}{s}\right)$
+
+**Newton's second law of motion**
+
+- _The time rate of change of an object’s momentum is equal to the applied forces_
+- Linear momentum is a vector $\vec{p} = m\vec{V}$
+- The time rate of change of the momentum is then the derivative of the product of mass and velocity
+
+$$\frac{d\vec{p}}{dt} = \frac{d(m\vec{V})}{dt} = \frac{dm}{dt}\vec{V} + m\frac{d(\vec{V})}{dt}$$
+
+- Newton's second law says this product is equal the applied forces, which can be one or more
+
+$$‎‎\sum{\vec{F}} = \frac{dm}{dt}\vec{V} + m\frac{d\vec{V}}{dt}$$
+
+- $\frac{d\vec{V}}{dt} = \vec{a}$ where $\vec{a}$ is the acceleration vector
+- $\frac{dm}{dt} = 0$ only if mass is not changing, meaning
+
+$$‎‎\sum{\vec{F}} = m\vec{a}$$
+
+**only when mass is not changing (!)**
+
+**Newton's third law of motion**
+
+- _For every action there is an equal and opposite reaction_
+
+**Newton's universal law of gravitation**
+
+- The force of gravity must somehow be related to the distance between the two bodies
+- The force of gravity between the earth and any object is inversely proportional to the square of the distance that separates the object from the earth’s center
+- Universal: All objects attract each other with a force of gravitational attraction, and that force is directly dependent upon the masses of both objects and inversely proportional to the square of the distance that separates their centers
+
+$$F_{grav} \propto \frac{m_{1}m_{2}}{R^{2}}$$
+
+- Note: $\propto$ is the symbol for _proportional to_; $R$ is the distance between the two object’s centers
+
+$$F_{grav} = \frac{Gm_{1}m_{2}}{R^{2}}$$
+
+- Where $G$ represents the universal gravitational constant $\left(G = 6.67 \times 10^{-11}\frac{Nm^{2}}{k\hspace{0.1cm}kg^{2}}\right)$
+- We will define a new parameter, the Earth’s gravitational constant, as follows:
+
+$$\mu_{Earth} = Gm_{Earth} = 398600.5 \frac{km^{3}}{s^{2}}$$
+
+so, Newton's universal law of gravitation for an object around earth becomes
+
+$$\Rightarrow F_{grav} = \frac{\mu m}{R^{2}}$$
+
+## Laws of conservation
 
 - 
 
