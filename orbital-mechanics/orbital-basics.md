@@ -24,12 +24,50 @@
 
 **Dot products**
 
-- Dot product of two vectors $\vec{A}$ and $\vec{B}$ multiplies the amoung of $\vec{A}$ that is in the direction of $\vec{B}$ by the magnitude of $\vec{B}$
-- $\vec{A} \cdot \vec{B} = AB cos \theta$
+- The _Dot product_ of two vectors $\vec{A}$ and $\vec{B}$ multiplies the amoung of $\vec{A}$ that is in the direction of $\vec{B}$ by the magnitude of $\vec{B}$
+- $\vec{A} \cdot \vec{B} = AB cos \theta = A_{I}B_{I} + A_{J}B_{J} + A_{K}B_{K}$
+- Note: dot product is/produces a scalar
+
+**Cross products (vector products)**
+
+- The _Dot product_ of two vectors in three dimensions is a vector at right angles to both the original vectors
+- _You can use the right-hand rule to find the direction of the third vector_
+- Mathematically, you solve the determinant:
+
+$$
+\begin{vmatrix}
+\widehat{I} & \widehat{J} & \widehat{K} \\
+A_{I} & A_{J} & A_{K} \\
+B_{I} & B_{J} & B_{K}
+\end{vmatrix}
+\quad
+\textbf{so}
+\quad
+\vec{A} \times \vec{B} =
+\left[(A_{J})(B_{K}) - (B_{J})(A_{K})\right]\widehat{I} - \left[(A_{I})(B_{K}) - (B_{I})(A_{K})\right]\widehat{J} + \left[(A_{I})(B_{J}) - (B_{I})(A_{J})\right]\widehat{K}
+$$
+
+- Note: cross product is/produces a vector
+
+**Angles and quadrant checks**
+
+- A lot of astrodynamics is _determining the angle between two vectors_
+- Mainly done using dot products, which results in an _inverse cosine_
+
+$$\vec{A} \cdot \vec{B} = AB cos \theta \rightarrow \theta =  cos^{-1}\left(\frac{\vec{A} \cdot \vec{B}}{AB}\right)$$
+
+- Potential issue: cosine is periodic (!), mathematically, we get two answers, but physically, only one of them is correct
+- Avoid this issue by using the _unit circle_:
+  - We can use our vectors to determine which quadrant of the unit circle we're in
+  - Then use that to determine the correct angle
+
+## Kepler's laws
+
 - 
 
-## Kepler's and Newton's laws
+## Newton's laws
 
+- 
 
 ## Credits
 
