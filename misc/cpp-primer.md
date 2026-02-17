@@ -2,6 +2,217 @@
 
 ## Core syntax and primitives
 
+### Variables and types
+### Conditionals
+### Strings
+### Streams
+### Arrays
+### Maps
+### Loops
+### Functions
+### Iterators
+### Ranges
+### References
+### Pointers
+### Classes
+### Structs
+### Enums
+### Modules
+### Standard library
+
+#### Data structures
+#### Algorithms
+
+### Templates
+
+## Error handling
+
+### Compile time assertions
+
+- `static_assert()`: Does not require any includes, checks for things known at compile time (_static_)
+- `static_assert()` is provided a boolean expression and a string (error message)
+- Compiler generates an error if expression doesn't evaluate to `true`
+- `static_assert()` is typically used to investigate types
+- Most common use case: Examine types within template code
+
+```cpp
+#include <type_traits>
+
+template <typename T>
+  T Square(T x) {
+  static_assert(std::is_floating_point_v<T>,
+    "Square requires a floating-point type");
+  return x * x;
+}
+
+int main() {
+  // main.cpp(5): error C2338: static_assert
+  // failed: 'Square requires a floating-point type'
+  Square("Hello"); 
+}
+```
+
+### Compile time checks
+
+- C++20 concepts are another form of compile-time checking
+
+```cpp
+#include <concepts>
+
+auto Square(std::floating_point auto x) {
+  return x * x;
+}
+
+int main() {
+  Square(2.0);
+  // main.cpp(9,3): 'Square': no matching overloaded function found
+  // the associated constraints are not satisfied
+  // the concept 'std::floating_point<int>' evaluated to false
+  Square(2);
+}
+```
+
+### Run time assertions
+
+- `assert()` takes a boolean expression as an argument, program aborts if it evaluates to `false`
+
+```cpp
+#include <iostream>
+#include <cassert>
+
+class Character {
+public:
+  std::string GetName() {
+    return "Legolas";
+  };
+};
+
+void LogName(Character* Player) {
+  assert(Player);  
+  std::cout << Player->GetName();
+}
+
+int main() {
+  // Assertion failed: Player, file main.cpp, line 12
+  // cpp.exe (process 8640) exited with code 3.
+  LogName(nullptr);
+}
+```
+
+- Possible to provide a second argument to `assert()` (error message)
+
+```cpp
+int Divide(int x, int y) {
+  // Assertion failed: ("Cannot divide by zero", y != 0), file main.cpp, line 4
+  assert(("Cannot divide by zero", y != 0));
+  return x/y;
+}
+```
+
+```cpp
+int Divide(int x, int y) {
+  // Assertion failed: y != 0 && "Cannot divide by zero", file main.cpp, line 4
+  assert(y != 0 && "Cannot divide by zero");
+  return x/y;
+}
+```
+
+- Calls to `assert()` have a performance impact, typically disabled for production
+- `#define` a macro called `NDEBUG` (can be done prior to the directive that includes `<cassert>`)
+
+```cpp
+#include <iostream>
+#define NDEBUG
+#include <cassert>
+
+int main() {
+  assert(false);
+  std::cout << "Program ran successfully";
+}
+```
+
+- Third-party assert libraries like "boost assert" or "check" provide more features or clearer syntax compared to the standard `assert()`
+
+### Exceptions
+
+- `throw` generates errors called _exceptions_
+- `throw` can lead to unreachable code
+
+```cpp
+#include <iostream>
+
+int Divide(int x, int y) {
+  if (y == 0) {
+    throw 0;
+    // Unreachable code
+    std::cout << "Cannot divide by 0"; 
+  }  
+  return x / y;
+}
+
+int main() { Divide(5, 0); }
+```
+
+- `try` block: Contains code that might `throw` an exception
+- `catch` block: Contains code that will be called if an exception was thrown
+- Instead of immediately terminating, code is executed within the `catch` block, then the program continues as normal
+
+```cpp
+#include <iostream>
+
+int main() {
+  try {
+    throw "Some Error";
+  } catch (...) {
+    std::cout << "I caught an error";
+  }
+
+  std::cout
+    << "\nThe program can continue as normal";
+}
+```
+
+- However, we can choose to return early from a `catch` statement (using normal `return`)
+- Note: Exceptions can be a common cause of memory leaks; managed pointers can mitigate this
+
+### Catching specific exceptions
+
+- 
+
+## Idiomatic style and project organization
+
+### Forward declaration
+### Headers / cpp files
+### Namespaces
+### Scope
+
+## File handling and serialization
+
+## Working with libraries
+
+## Testing and debugging
+
+
+
+
+
+
+
+
+
+
+### Operators
+
+### Includes
+
+### Preprocessor directives
+### Build process
+
+### Operator overloading
+### Runtime polymorphism
+
+
+
 **Types**
 
 ```cpp
