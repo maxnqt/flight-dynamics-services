@@ -126,7 +126,33 @@
   - The idea doesn't make sense to you
   - And you know the idea is central to understanding the larger topic/class
 - Cover the material, then do relevant practice, and only when the above is met, use the Feynman technique
-- Use the Feynman technique to "repair" misunderstanding or fill in a gap in your knowledge that is causing confusion
+- Use the Feynman technique to "repair" misunderstanding or fill in a gap in your knowledge that is causing confusion (first, identify your confusion)
+- Focus on big ideas for memorability: Confusing explanations are those, whose links between key steps of reasoning have not solidified
+- Don't substitute self-explanations for practice: Explanation $\neq$ practice problems (unless you hit an impass during a practice problem)
+- Use the knowledge of your gaps to seek out new explanations (fill in missing prerequisites)
+- Teach to learn: Make sense of newly learned information, understanding through writing
+
+---
+
+- Flow-based notetaking: Ideally rovides a surface for connecting and linking ideas as they are reaching you (not the linear, bullet-point style of notes that most people use)
+- You start by only writing out the major ideas using a few words at most instead of entire sentences
+- Facts, dates, details and descriptions are reduced to just a few words, not lengthy paragraphs
+- Next, draw a few arrows to connect it to other ideas
+- Represent the ideas as being interrelated components
+- Metaphor, diagraming and information compression are methods that can be used in conjunction with flow-based notetaking to enhance understanding
+- Remember that notes are only an intermediate step towards understanding
+- Sacrifice some later readability, for current understanding
+- By reducing the content of your notes and adding links or diagrams, the material can be learned more holistically
+- If a class has a high information density or you plan to review notes thoroughly later, there are hybrid strategies you can pursue
+  - Approach #1: Take regular notes first and then recopy them into a flow-based format
+  - Approach #2 (high information density): Flow-based commenting: Write down the key information and insert links into your notes when there is a break
+- Key: Know what is important - What the core information taught here?
+- Cut down the amount of information you transcribe and emphasize on connecting and sorting that information in a way you understand
+
+---
+
+- Note-taking is often easier and more natural when you’re listening to something, than when you’re reading
+- Why are you reading it in the first place? Why are you trying to take notes? What are you hoping to achieve?
 - 
 
 ## Credits
@@ -140,3 +166,6 @@
 - [https://www.scotthyoung.com/blog/2016/06/15/why-learn-theory/](https://www.scotthyoung.com/blog/2016/06/15/why-learn-theory
 - [https://www.youtube.com/watch?v=FrNqSLPaZLc](https://www.youtube.com/watch?v=FrNqSLPaZLc)
 - [https://www.youtube.com/watch?v=PbX0XRNe24o](https://www.youtube.com/watch?v=PbX0XRNe24o)
+- [https://www.scotthyoung.com/blog/2008/03/06/learn-more-study-less-flow-based-notetaking/](https://www.scotthyoung.com/blog/2008/03/06/learn-more-study-less-flow-based-notetaking/)
+- [https://www.scotthyoung.com/blog/2019/01/29/take-notes-while-reading/](https://www.scotthyoung.com/blog/2019/01/29/take-notes-while-reading/)
+- 
